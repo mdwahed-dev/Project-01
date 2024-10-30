@@ -1,0 +1,640 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    /* =============================
+common css
+================================= */
+    .container {
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+    .box {
+        display: flex;
+    }
+
+    ul,
+    ol {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    cursor: pointer;
+
+    .common_button a {
+        padding: 14px 50px;
+        background: red;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        display: inline-block;
+        color: white;
+
+    }
+
+    .common_button a:hover {
+        background: #000;
+    }
+
+    /* =============================
+common css
+================================= */
+
+    /* ===============================
+Navbar part start
+================================== */
+}
+
+nav {
+    background: red;
+    padding: 27px 0;
+
+}
+
+.logo {
+    width: 20%;
+
+}
+
+.menu_bar {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button_part {
+    width: 20%;
+
+
+}
+
+.menu_bar ul {
+    display: flex;
+    column-gap: 47px;
+    font-size: 16px;
+    font width: 600px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.menu_bar ul li {
+    transition: 2;
+}
+
+.menu_bar ul li:hover {
+    color: yellow;
+}
+
+
+.button_part a {
+    font-size: 16px;
+    font width: 600px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid white;
+    padding: 14px 32px;
+    display: inline-block;
+    transition: 1s;
+
+}
+
+.button_part a:hover {
+    background: black;
+}
+
+/* ===============================
+Navbar part end
+================================== */
+/* ===============================
+Banner part end
+================================== */
+.banner {
+    background-image: url('./image/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 265px 0;
+}
+
+.banner h1 {
+    font-size: 64px;
+    font-weight: 700px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 31px;
+    width: 850px;
+
+
+}
+
+/* ===============================
+Banner part end
+================================== */
+
+/* ===============================
+Biggest part start
+================================== */
+.Biggest {
+    padding-top: 100px;
+    padding-bottom: 28px;
+}
+
+.Biggest .box {
+    align-items: center;
+}
+
+.Biggest .left {
+    width: 40%;
+}
+
+.Biggest .left h2 {
+    font-size: 48px;
+    font-weight: 700px;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    width: 290px;
+}
+
+.Biggest .right {
+    color: 6C6C6C;
+    font-size: 16px;
+    font-weight: 600px;
+    font-family: "Poppins", sans-serif;
+    width: 691px;
+}
+
+.Biggest .box01 {
+    padding-top: 100px;
+    justify-content: space-between;
+
+}
+
+/* ===============================
+Biggest part end
+================================== */
+/* ===============================
+service part start
+================================== */
+
+.service .left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+
+}
+
+.service .right {
+    width: 50%;
+    background-image: url(./image/Services01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.service .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    transition: 1s;
+
+}
+
+.service .right:hover .overlay {
+    right: 0;
+}
+
+.overlay .button_part {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.service .overlay h5 {
+    font-size: 36px;
+    font-weight: 600px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 19px;
+
+}
+
+.service .right1 {
+    width: 50%;
+    background-image: url(./image/Services02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.service .overlay1 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: 1s;
+
+}
+
+.service .right1:hover .overlay1 {
+    right1: 0;
+}
+
+
+.service .right2 {
+    width: 50%;
+    background-image: url(./image/Services03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+
+}
+
+
+.service h2 {
+    font-size: 64px;
+    font-weight: 700px;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.service p {
+    font-size: 16px;
+    font-weight: 600px;
+    color: #6C6C6C;
+    font-family: "Poppins", sans-serif;
+    width: 405px;
+
+}
+
+/* ===============================
+service part end
+================================== */
+/* ===============================
+About part start
+================================== */
+.about{
+    padding: 135px 0px;
+    background: #F0F0F0;
+}
+.about .about_banner {
+    width: 100%;
+    height: 310px;
+    background-image: url(./image/about.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+    overflow: hidden;
+}
+
+
+.about .about_banner .overlay {
+    width: 40%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    left: -40%;
+    transition: 1s;
+
+}
+
+.about .about_banner .overlay h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    width: 262px;
+    font-family: "Poppins", sans-serif;
+
+}
+ 
+.about .about_banner:hover .overlay{
+    left: 0px;
+}
+
+/* ===============================
+About part end
+================================== */
+/* ===============================
+Sponsor part start
+================================== */
+.sponsor{
+    padding: 120px 0px;
+}
+.sponsor .box{
+    justify-content: center;
+}
+/* ===============================
+Sponsor part end
+================================== */
+/* ===============================
+Card part start
+================================== */
+.card_section{
+    background: #F0F0F0;
+    padding-top: 110px;
+    padding-bottom: 162px;
+}
+
+.card_section .box{
+    justify-content: space-between;
+}
+
+.card_section .card{
+    width: 340px;
+    height: 400px;
+    background-image: url(./image/Cardimg01.png); 
+    position: relative;
+    overflow: hidden;
+}
+
+.card_section .card .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 1s;
+    padding-top: 75px;
+    padding-left: 44px;
+    padding-bottom: 55px;
+}
+.card_section .card .overlay h2{
+
+    width: 249px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+.card:hover .overlay{
+    top: 0%;
+}
+
+.card a{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px 22px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin-top: 50px;
+    display: inline-block;
+
+}
+.card_section .card1{
+    width: 340px;
+    height: 400px;
+    background-image: url(./image/Cardimg02.png); 
+    position: relative;
+    overflow: hidden;
+}
+
+.card_section .card1 .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 1s;
+    padding-top: 75px;
+    padding-left: 44px;
+    padding-bottom: 55px;
+}
+.card_section .card1 .overlay h2{
+
+    width: 249px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+.card1:hover .overlay{
+    top: 0%;
+}
+
+.card1 a{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px 22px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin-top: 50px;
+    display: inline-block;
+
+}
+.card_section .card2{
+    width: 340px;
+    height: 400px;
+    background-image: url(./image/Cardimg03.png); 
+    position: relative;
+    overflow: hidden;
+}
+
+.card_section .card2 .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 1s;
+    padding-top: 75px;
+    padding-left: 44px;
+    padding-bottom: 55px;
+}
+.card_section .card2 .overlay h2{
+
+    width: 249px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+.card2:hover .overlay{
+    top: 0%;
+}
+
+.card2 a{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px 22px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin-top: 50px;
+    display: inline-block;
+
+}
+
+.card_section p{
+    text-align: right;
+}
+/* ===============================
+Card part end
+================================== */
+/* ===============================
+contact part start
+================================== */
+.contact{
+    background: red;
+}
+.contact img{
+    width: 100%;
+}
+
+.contact .box{
+    justify-content: space-between;
+    padding: 45px 0px;
+}
+
+.contact .box h4{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+/* ===============================
+contact part end
+================================== */
+/* ===============================
+footer part start
+================================== */
+
+.footer{
+    background: #1F1F1F;
+    width: 100%;
+    height: 200px;
+    padding: 150px  0px;
+    
+}
+.footer .logo{
+    width: 40%;
+}
+.footer .logo .ulone{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding: 15px 0px;
+
+}
+.footer .logo .ulone li i{
+    margin-right: 8px ;
+}
+.footer .logo .iconbox{
+    display: flex;
+    column-gap: 12px;
+    padding-top:10px ;
+}
+.footer .logo .iconbox i{
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    padding: 8px;
+    border-radius: 50%;
+
+}
+
+.footer .company{
+    width: 20%;
+    font-size: 20px;
+    color: white;
+}
+.footer .company .ultwo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding: 15px 0px;
+
+}
+.footer .others{
+    width:20%;
+}
+.footer .others{
+    width: 20%;
+    font-size: 20px;
+    color: white;
+}
+.footer .others .ulthree{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding: 15px 0px;
+
+}
+.footer .certificate{
+    width: 20%;
+    font-size: 20px;
+    color: white;
+}
+.footer .certificate img{
+    margin-right: 8px;
+    
+}
+
+.footer .copyright_part{
+    
+    padding: 36px 0px;
+}
+.footer .copyright_part p{
+    color: #6C6C6C;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding: 20px 0px;
+
+}
+/* ===============================
+footer part end
+================================== */
